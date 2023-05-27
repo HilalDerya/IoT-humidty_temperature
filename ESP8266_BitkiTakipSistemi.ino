@@ -11,8 +11,8 @@
 #define BLYNK_TEMPLATE_NAME "Bitki Takip Sistemi"
 #define BLYNK_AUTH_TOKEN "U_PDe5DQDEVGYM7lvc60IOuxC8dck071"
 
-char ssid[] = "TurkTelekom_ZY8BB3_2.4GHz";
-char pass[] = "PYnNHP47xX4t";
+char ssid[] = ""; //wifi ssid
+char pass[] = ""; //wifi password
 
 DHT dht(DHTPIN, DHTTYPE);
 int toprakNem=0;
